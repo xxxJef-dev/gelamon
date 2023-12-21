@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#5db540" /> <!-- Background color when button is pressed -->
+            <corners android:radius="6dp" /> <!-- Adjust the radius for rounded corners -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40b540" /> <!-- Default background color -->
+            <corners android:radius="12dp" /> <!-- Adjust the radius for rounded corners -->
+        </shape>
+    </item>
+</selector>
